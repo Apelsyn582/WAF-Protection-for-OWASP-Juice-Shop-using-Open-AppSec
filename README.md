@@ -13,3 +13,21 @@ The environment is based on Debiam 12 and uses Nginx as a reverse proxy in front
 - Evaluate the detection and prevention capabilities of Open AppSec.
 - Explore how WAF logs can be used for security monitoring and incident response.
 
+## 🧪 Tools and Technologies
+
+| Component         | Role                        |
+| ----------------- | --------------------------- |
+| Debian 12         | Used as a ......            |
+| OWASP Juice Shop  | Web application             |
+| Open AppSec       | Open Source WAF             |
+| NGINX             | reverse proxy for juiceshop |
+| Wazuh             | Log aggregation & alerting  |
+
+## 1. Lab  Setup
+#### Install OWASP Juice shop on Debian 12:
+- [Downloaded docker image and run it](https://pwning.owasp-juice.shop/companion-guide/latest/part1/running.html#_docker_image)
+- install NGINX and configure /etc/nginx/sites-available/default:
+<img src="images/nginx_config.png" alt="config" width="400">
+
+##### here is the app:
+<img src="images/juiceshop.png" alt="config" width="450">
